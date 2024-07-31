@@ -1,25 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Lista1 from './components/Lista';
+ 
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="div-1">
+      <h1 id="h1-titulo">LISTA DE CURSOS ONLINE</h1>
+      <Lista1 />
     </div>
-  );
+  )
 }
-
+ 
 export default App;
